@@ -1,0 +1,553 @@
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article a{
+  text-decoration: none;
+  color: black;
+}
+
+#container{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.name{
+  font-family: 'Cantata One', 'serif';
+  font-size: 30px;
+  float: left;
+  text-decoration: none;
+}
+
+.name h1{
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  color: #333;
+}
+
+.sessions-menu {
+  list-style: none;
+  float: right;
+}
+
+.sessions-menu li {
+  float: left;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.sessions-menu a {
+  color: #333;
+  text-decoration: none;
+  
+}
+
+.sessions-menu a:hover {
+  text-decoration: underline;
+}
+
+.sections {
+  background-color: #18333e;
+  border: 1px solid #060d27;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.sections ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sections li {
+  float: left;
+  border-right: 1px solid #060d27;
+  width: 20%;
+}
+
+.sections li:last-child{
+  border-right: none;
+}
+
+.sections a{
+  color: #EEE;
+  padding: 15px 0px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.internacional a{
+  border-bottom: 5px solid #185f7c;
+}
+
+.internacional a:hover{
+  background-color: #185f7c;
+}
+
+.deportes a{
+  border-bottom: 5px solid #B60303;
+}
+
+.deportes a:hover{
+  background-color: #B60303;
+}
+
+.motor a{
+  border-bottom: 5px solid #C3717B;
+}
+
+.motor a:hover{
+  background-color: #C3717B;
+}
+
+.tecnologia a{
+  border-bottom: 5px solid darkgreen;
+}
+
+.tecnologia a:hover{
+  background-color: darkgreen;
+}
+
+.politica a{
+  border-bottom: 5px solid #D87700;
+}
+
+.politica a:hover{
+  background-color: #D87700;
+}
+
+.columns {
+  float: left;
+  margin-top: 20px;
+  width: 29%;
+}
+
+.section-left {
+  margin-left: 2.5%;
+}
+
+.section-center {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.section-right {
+  margin-right: 2.5%;
+}
+
+section img{
+  width: 100%;
+}
+
+h3 {
+  font-family: 'Droid Serif', 'serif';
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Droid Serif', 'serif';
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ultimas-noticias{
+  border: 2px solid #777;
+  padding: 10px;
+}
+
+.ultimas-noticias article{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.suscripcion {
+  margin-top: 20px;
+  border: 2px solid #777;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  background-image: linear-gradient(to bottom,#ddd,#aaa);
+  box-shadow: 7px 7px 20px #333;
+}
+
+.suscripcion h3{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+footer{
+  background-color: #D5D5D5;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-top: 2px solid #444;
+}
+
+footer h3{
+  font-size: 20px;
+  color: #222;
+}
+
+.footer-left {
+  margin-left: 2.5%;
+}
+
+.footer-center {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.footer-right {
+  margin-right: 2.5%;
+}
+
+.footer-right a{
+  text-decoration: none;
+}
+
+.footer-right a:hover{
+  text-decoration: underline;
+}
+
+.footer-right p, .footer-right address{
+  font-size: 16px;
+  font-style: italic;
+  font-family: serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-left ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-left a{
+  color: black;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-family: 'Droid Serif', 'serif';
+  width: 100%;
+  text-align: center;
+}
+
+.footer-left a:hover{
+  text-decoration: underline;
+}
+
+.footer-left li{
+  padding: 5px 0px;
+}
+
+h2{
+  font-family: 'Droid Serif', 'serif';
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+form{
+  margin: 30px;
+  padding-left: 20px;
+  margin-bottom: 80px;
+}
+
+.form-group{
+  margin-top: 30px;
+}
+
+.form-control{
+  width: 75%;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px 12px;
+  color: #555;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  display: block;
+}
+
+input.form-control {
+  height: 34px;
+}
+
+.form-control:focus{
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233, .6);
+}
+
+.form-control::-moz-placeholder{
+  color: #999;
+  opacity: 1;
+}
+
+.form-control::-webkit-input-placeholder{
+  color: #999;
+}
+
+.form-label{
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.form-group.checkboxes{
+  margin-top: 10px;
+}
+
+.button{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid #357ebd;
+  border-radius: 4px;
+  background-image: none;
+  color: white;
+  background-color: #428bca;
+  text-decoration: none;
+}
+
+.button:focus{
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; 
+}
+
+.button:hover, .button:focus{
+  color: white;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.name-section h2{
+  color: #e0e0e0;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: bold;
+  font-size: 28px;
+  width: 100%;
+  margin-top: 0;
+  padding: 20px 0px;
+  border: 1px solid #060d27;
+  border-top: none;
+}
+
+.name-international{
+  background-color: #185f7c;  
+}
+
+.name-sports{
+  background-color: #B60303;
+}
+
+.name-motor{
+  background-color: #C3717B;
+}
+
+.name-technology{
+  background-color: darkgreen;
+}
+
+.name-policy{
+  background-color: #D87700;
+}
+
+.noticia-destacada{
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 30px;
+  border: 2px solid #777;
+  padding: 20px;
+}
+
+.noticia-destacada img{
+  width: 40%;
+  float: left;
+  padding-right: 20px;
+}
+
+.noticia{
+  float: left;
+  width: 62%;
+  margin-left: 2.5%;
+  margin-right: 4%;
+  margin-top: -30px;
+}
+
+.noticia img{
+  margin-bottom: 30px;
+}
+
+.noticia h3{
+  font-size: 30px;
+}
+
+.noticia h2{
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.noticia p{
+  margin: 0;
+}
+
+.relacionada{
+  border: 2px solid #777;
+  padding: 10px;
+}
+
+.relacionada article{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.error {
+  margin-left: 50px;
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 20px;
+  border: 1px solid #ebccd1;
+  border-radius: 5px;
+  width: 700px;
+}
+
+#popup a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#popup ul{
+  list-style: none;
+}
+
+#popup {
+  border: 1px solid #999;
+  width: 500px;
+  position: absolute;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  visibility: hidden;
+  top: -10px;
+
+  -webkit-transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;  
+  transition: opacity .4s ease-in-out;
+}
+
+.popup-container {
+  position: relative;
+}
+
+#news-title {
+  display: inline-block;
+}
+
+#news-title h3{
+  margin: 0;
+  padding: 30px 0;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: gray;
+  width: 85%;
+  white-space: nowrap;
+}
+
+.table th{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 10px;
+}
+
+.table tr{
+  border-bottom-color: rgb(128, 128, 128);
+}
+
+.table td{
+  padding: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.table-title {
+  width: 100%;
+}
+
+.table form {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.lastest-news a{
+  text-decoration: none;
+  color: #111;
+}
+
+.lastest-news a:hover{
+  text-decoration: underline;
+}
+
+.lastest-news {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.lastest-news li{
+  padding: 5px;
+}
+
+.comentarios {
+  max-height: 500px;
+  overflow: auto;
+}
+
+
+
